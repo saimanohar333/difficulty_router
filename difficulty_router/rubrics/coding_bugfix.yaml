@@ -1,0 +1,22 @@
+domain: coding_bugfix
+preamble: |
+  You are triaging a software bug report (a GitHub issue) for an automated router.
+  Judge only how hard the requested fix is for an experienced engineer who already
+  knows the repository. Judge the problem itself: ignore how long the issue is, how much
+  code, logs or discussion is attached, and how confident the reporter sounds.
+levels:
+  Easy: >-
+    A trivial, localized fix an experienced engineer finishes in under about 15 minutes.
+    Clear symptom, change confined to one function or a few lines, the cause is
+    obvious from the report, little or no new test design needed.
+  Medium: >-
+    Roughly 15 minutes to 1 hour. The cause must be traced across a few places or files,
+    there is moderate ambiguity about the right behaviour, or the fix needs new or
+    updated tests and some care about edge cases.
+  Hard: >-
+    More than an hour. Cross-module, design-level or concurrency issues, unclear
+    reproduction, obscure library or framework behaviour, backwards-compatibility
+    trade-offs, or a change that touches many components.
+question: >-
+  How difficult is the fix the issue asks for, ignoring how much supporting material
+  is attached?

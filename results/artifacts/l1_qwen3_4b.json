@@ -1,0 +1,32 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "artifacts": {
+  "d617fd1ccb2459fb": {
+   "model": "Qwen/Qwen3-4B",
+   "question": "d617fd1ccb2459fb",
+   "method": "temperature",
+   "temperature": 6.812052293964553,
+   "prior_method": "batch",
+   "prior_strength": 0.75,
+   "n_calib": 200,
+   "prior": [
+    [
+     0.13473475,
+     0.86484733,
+     0.00041792
+    ],
+    [
+     0.9663516,
+     0.00663207,
+     0.02701633
+    ],
+    [
+     0.0065027,
+     0.42905676,
+     0.56444055
+    ]
+   ]
+  }
+ },
+ "heads": {}
+}

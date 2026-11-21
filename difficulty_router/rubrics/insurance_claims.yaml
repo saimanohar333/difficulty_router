@@ -1,0 +1,18 @@
+domain: insurance_claims
+preamble: |
+  You are triaging a medical insurance claim for an automated router. Judge how hard
+  the claim is to process correctly. Judge the task itself: ignore how many pages,
+  forms or letters are attached.
+levels:
+  Easy: >-
+    Routine single-service claim, valid codes, coverage clearly stated, all required
+    documents present.
+  Medium: >-
+    Several line items or procedures; coding checks needed; policy lookup across
+    sections; minor missing information.
+  Hard: >-
+    Medical-necessity judgement, coordination of benefits, conflicting documents,
+    exclusions or possible fraud indicators requiring careful reasoning.
+question: >-
+  How difficult is this claim to process correctly, ignoring how much supporting
+  material is attached?

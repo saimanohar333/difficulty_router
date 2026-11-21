@@ -1,0 +1,13 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "prior": "batch",
+  "max_prompt_tokens": 12000,
+  "n_train": 200,
+  "n_used": 200,
+  "classes_used": {
+    "Hard": 18,
+    "Medium": 104,
+    "Easy": 78
+  },
+  "dropped_ids": []
+}

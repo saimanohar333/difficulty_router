@@ -1,0 +1,67 @@
+{
+  "n": 200,
+  "raw_label": {
+    "accuracy": 0.53,
+    "macro_f1": 0.40512265512265516,
+    "ordinal_mae": 0.47,
+    "confusion_rows_gold_cols_pred": [
+      [
+        18,
+        59,
+        0
+      ],
+      [
+        17,
+        85,
+        3
+      ],
+      [
+        0,
+        15,
+        3
+      ]
+    ]
+  },
+  "difficulty": {
+    "accuracy": 0.5,
+    "macro_f1": 0.365820863153329,
+    "ordinal_mae": 0.505,
+    "confusion_rows_gold_cols_pred": [
+      [
+        14,
+        62,
+        1
+      ],
+      [
+        15,
+        83,
+        7
+      ],
+      [
+        0,
+        15,
+        3
+      ]
+    ]
+  },
+  "ece": 0.41714550774119885,
+  "escalated_rate": 0.055,
+  "truncated_rate": 0.0,
+  "latency_ms": {
+    "mean": 756.8854999999999,
+    "p50": 592.2,
+    "p95": 1691.9649999999963
+  },
+  "prompt_tokens_mean": 1044.835,
+  "flip_rate_option_reversal": 0.125,
+  "gold_distribution": {
+    "Easy": 77,
+    "Medium": 105,
+    "Hard": 18
+  },
+  "model": "Qwen/Qwen3-4B",
+  "level": "L0",
+  "split": "test",
+  "prior": "batch",
+  "tau": 0.6
+}

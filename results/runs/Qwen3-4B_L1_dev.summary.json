@@ -1,0 +1,66 @@
+{
+  "n": 100,
+  "raw_label": {
+    "accuracy": 0.59,
+    "macro_f1": 0.37854113655640376,
+    "ordinal_mae": 0.43,
+    "confusion_rows_gold_cols_pred": [
+      [
+        13,
+        26,
+        0
+      ],
+      [
+        6,
+        46,
+        0
+      ],
+      [
+        2,
+        7,
+        0
+      ]
+    ]
+  },
+  "difficulty": {
+    "accuracy": 0.59,
+    "macro_f1": 0.37854113655640376,
+    "ordinal_mae": 0.43,
+    "confusion_rows_gold_cols_pred": [
+      [
+        13,
+        26,
+        0
+      ],
+      [
+        6,
+        46,
+        0
+      ],
+      [
+        2,
+        7,
+        0
+      ]
+    ]
+  },
+  "ece": 0.10457857672560658,
+  "escalated_rate": 0.0,
+  "truncated_rate": 0.0,
+  "latency_ms": {
+    "mean": 772.237,
+    "p50": 587.1500000000001,
+    "p95": 2166.735
+  },
+  "prompt_tokens_mean": 1091.14,
+  "gold_distribution": {
+    "Easy": 39,
+    "Medium": 52,
+    "Hard": 9
+  },
+  "model": "Qwen/Qwen3-4B",
+  "level": "L1",
+  "split": "dev",
+  "prior": "batch",
+  "tau": 0.0
+}
